@@ -1,0 +1,9 @@
+payload:
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,duckduckgo
+  - DOMAIN-SUFFIX,touhou.tel
+  - DOMAIN-KEYWORD,stackoverflow
+  - DOMAIN-KEYWORD,wikipedia
+  - DOMAIN-SUFFIX,octotree.io
+  - DOMAIN-SUFFIX,v2ex.com

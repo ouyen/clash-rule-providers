@@ -1,0 +1,56 @@
+payload:
+# 违法网站
+  # 反华网站
+  - DOMAIN-KEYWORD,zhuichaguoji
+  - DOMAIN-KEYWORD,falundafa
+  - DOMAIN-KEYWORD,chengmingmag
+  - DOMAIN-KEYWORD,wujieliulan
+  - DOMAIN-KEYWORD,rfa
+  - DOMAIN-KEYWORD,open
+  - DOMAIN-KEYWORD,ifjc
+  - DOMAIN-KEYWORD,tuidang
+  - DOMAIN-KEYWORD,bannedboot
+  - DOMAIN-KEYWORD,aboluowang
+  - DOMAIN-KEYWORD,secretchina
+  - DOMAIN-KEYWORD,chinadigitaltimes
+  - DOMAIN-KEYWORD,appledaily
+  - DOMAIN-KEYWORD,chinaaffairs
+  - DOMAIN-KEYWORD,voachinese
+  - DOMAIN-KEYWORD,epochtimes
+  - DOMAIN-KEYWORD,24fa
+  - DOMAIN-KEYWORD,dongtaiwang
+  - DOMAIN-KEYWORD,cn.nytimes
+  - DOMAIN-KEYWORD,ntdtv
+  - DOMAIN-KEYWORD,beijingspring
+  - DOMAIN-KEYWORD,minghui
+  - DOMAIN-KEYWORD,voacantonese
+  - DOMAIN-KEYWORD,zhengwunet
+  - DOMAIN-KEYWORD,li-hongzhi-master
+  - DOMAIN-KEYWORD,dafahao
+  - DOMAIN-KEYWORD,epochweekly
+  # 郭媒体
+  - DOMAIN-SUFFIX,guo.media
+  - DOMAIN-SUFFIX,gnews.org
+  - DOMAIN-SUFFIX,gtv.org
+  # 洋葱
+  - DOMAIN-SUFFIX,torproject.org
+  # 自由时报
+  - DOMAIN-SUFFIX,ltn.com.tw
+  # 恶俗维基
+  - DOMAIN-SUFFIX,t91y.com
+  - DOMAIN-KEYWORD,esu
+  - DOMAIN-KEYWORD,zhina
+  # 品葱
+  - DOMAIN-SUFFIX,pin-cong.com
+  - DOMAIN-SUFFIX,pincong.rocks
+
+
+  # 屏蔽宽带设置
+  - DOMAIN-SUFFIX,netvigator.com
+  # Mycard
+  - DOMAIN-SUFFIX,mycard520.com
+  # フリマJP
+  - DOMAIN-SUFFIX,furimajp.com
+  # 索尼
+  - DOMAIN-KEYWORD,sonyentertainmentnetwork
+  - DOMAIN-KEYWORD,playstation
