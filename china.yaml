@@ -1,4 +1,4 @@
-rule-providers:
+payload:
   ## 国内网站
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
