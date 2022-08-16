@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,touhou.tel
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,wikipedia
-  - DOMAIN-SUFFIX,octotree.io
-  - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,.blogspot.
+  - DOMAIN-KEYWORD,.facebook.
+  - DOMAIN-KEYWORD,.pinterest.
