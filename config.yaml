@@ -1,0 +1,158 @@
+
+rules:
+
+  - DOMAIN-SUFFIX,clash.razord.top,DIRECT
+  - DOMAIN-SUFFIX,yacd.haishan.me,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
+  - RULE-SET,lancidr,DIRECT
+
+  - DOMAIN-KEYWORD,github,PROXY
+  - RULE-SET,Quick-proxy,PROXY
+
+  - RULE-SET,Touhou-ban,Touhou-ban
+
+  - DOMAIN-SUFFIX,jp,JP
+  - DOMAIN-SUFFIX,pixiv.net,JP
+  - DOMAIN-SUFFIX,pixiv.org,JP
+  - DOMAIN-SUFFIX,pximg.net,JP
+  - PROCESS-NAME,tw.com.gamer.android.animad,TW
+  - DOMAIN-SUFFIX,bahamut.com.tw,TW
+  - DOMAIN-SUFFIX,gamer.com.tw,TW
+  - DOMAIN,gamer-cds.cdn.hinet.net,TW
+  - DOMAIN,gamer2-cds.cdn.hinet.net,TW
+
+  - RULE-SET,telegramcidr,Telegram
+  - RULE-SET,icloud,Apple
+  - RULE-SET,apple,Apple
+  - RULE-SET,Bilibili,Bilibili
+  - RULE-SET,Steam,🎮 Steam
+  - RULE-SET,Streaming,🎬 国际流媒体
+
+  - RULE-SET,NeteaseMusic,网易云音乐
+
+  - DOMAIN,ad-channel.wikawika.xyz,AD
+  - RULE-SET,Anti-AD,AD
+  - RULE-SET,Global,PROXY
+
+  - RULE-SET,China,🏠 大陆流量
+  - RULE-SET,ChinaIP,🏠 大陆流量
+  # Tencent
+  # - IP-CIDR,119.28.28.28/32,🏠 大陆流量
+  # - IP-CIDR,182.254.116.0/24,🏠 大陆流量
+  # GeoIP China
+  # - GEOIP,CN,🏠 大陆流量
+
+  - MATCH,🚥 其他流量
+
+rule-providers:
+  #----------------------------------------------------------------------------------------------------------------------
+  # global
+  Quick-proxy:
+    type: http
+    behavior: classical
+    path: ./ruleSet/quick_proxy.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/qiuck_proxy.yaml
+    interval: 86400
+
+  Global:
+    # DOMAIN-SUFFIX
+    type: http
+    behavior: domain
+    path: ./ruleSet/Global_domain.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/Global_domain.yaml
+    interval: 86400
+  #----------------------------------------------------------------------------------------------------------------------
+
+  China:
+    type: http
+    behavior: classical
+    path: ./ruleset/China.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/china.yaml
+    interval: 86400
+  ChinaIP:
+    type: http
+    behavior: ipcidr
+    path: ./ruleset/ChinaIP.yaml
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt
+    interval: 86400
+
+  #------------------------------------------------------------------------------------------------------------
+  Anti-AD:
+    type: http
+    behavior: domain
+    path: ./ruleset/Anti-AD.yaml
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    interval: 86400
+
+  #------------------------------------------------------------------------------------------------------------
+  # special use; 特殊用途
+  Touhou-ban:
+    type: http
+    behavior: classical
+    path: ./ruleSet/touhou_ban.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/touban.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  Bilibili:
+    type: http
+    behavior: classical
+    path: ./ruleset/bilibili.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/bilibili.yaml
+    interval: 86400
+
+  Steam:
+    type: http
+    behavior: classical
+    path: ./ruleSet/Steam.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Game/Steam.yaml
+    interval: 86400
+
+  Streaming:
+    type: http
+    behavior: classical
+    path: ./ruleSet/Streaming.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/Streaming.yaml
+    interval: 86400
+
+  academic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/academic.yaml
+    path: ./ruleset/academic.yaml
+    interval: 86400
+
+  NeteaseMusic:
+    type: http
+    behavior: classical
+    path: ./ruleset/NeteaseMusic.yaml
+    url: https://raw.githubusercontent.com/ouyen/clash-rule-providers/main/NeteaseMusic.yaml
+    interval: 86400
+

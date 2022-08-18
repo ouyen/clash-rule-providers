@@ -1,56 +1,177 @@
 payload:
-# 违法网站
-  # 反华网站
-  - DOMAIN-KEYWORD,zhuichaguoji
-  - DOMAIN-KEYWORD,falundafa
-  - DOMAIN-KEYWORD,chengmingmag
-  - DOMAIN-KEYWORD,wujieliulan
-  - DOMAIN-KEYWORD,rfa
-  - DOMAIN-KEYWORD,open
-  - DOMAIN-KEYWORD,ifjc
-  - DOMAIN-KEYWORD,tuidang
-  - DOMAIN-KEYWORD,bannedboot
-  - DOMAIN-KEYWORD,aboluowang
-  - DOMAIN-KEYWORD,secretchina
-  - DOMAIN-KEYWORD,chinadigitaltimes
-  - DOMAIN-KEYWORD,appledaily
-  - DOMAIN-KEYWORD,chinaaffairs
-  - DOMAIN-KEYWORD,voachinese
-  - DOMAIN-KEYWORD,epochtimes
-  - DOMAIN-KEYWORD,24fa
-  - DOMAIN-KEYWORD,dongtaiwang
-  - DOMAIN-KEYWORD,cn.nytimes
-  - DOMAIN-KEYWORD,ntdtv
-  - DOMAIN-KEYWORD,beijingspring
-  - DOMAIN-KEYWORD,minghui
-  - DOMAIN-KEYWORD,voacantonese
-  - DOMAIN-KEYWORD,zhengwunet
-  - DOMAIN-KEYWORD,li-hongzhi-master
-  - DOMAIN-KEYWORD,dafahao
-  - DOMAIN-KEYWORD,epochweekly
-  # 郭媒体
+  #3 屏蔽反华网站 屏蔽违法网站
+
+  - DOMAIN-SUFFIX,beijingspring.com
+  - DOMAIN-SUFFIX,beijingspring.cn
+  - DOMAIN-SUFFIX,beijingspring.org
+  - DOMAIN-SUFFIX,beijingspring.net
+
+  - DOMAIN-SUFFIX,chinaaffairs.com
+  - DOMAIN-SUFFIX,chinaaffairs.cn
+  - DOMAIN-SUFFIX,chinaaffairs.org
+  - DOMAIN-SUFFIX,chinaaffairs.net
+
+  - DOMAIN-SUFFIX,chengmingmag.com
+  - DOMAIN-SUFFIX,chengmingmag.cn
+  - DOMAIN-SUFFIX,chengmingmag.org
+  - DOMAIN-SUFFIX,chengmingmag.net
+
+  - DOMAIN-SUFFIX,dafahao.com
+  - DOMAIN-SUFFIX,dafahao.cn
+  - DOMAIN-SUFFIX,dafahao.org
+  - DOMAIN-SUFFIX,dafahao.net
+
+  - DOMAIN-SUFFIX,dongtaiwang.com
+  - DOMAIN-SUFFIX,dongtaiwang.cn
+  - DOMAIN-SUFFIX,dongtaiwang.org
+  - DOMAIN-SUFFIX,dongtaiwang.net
+
+  - DOMAIN-SUFFIX,epochweekly.com
+  - DOMAIN-SUFFIX,epochweekly.cn
+  - DOMAIN-SUFFIX,epochweekly.org
+  - DOMAIN-SUFFIX,epochweekly.net
+
+  - DOMAIN-SUFFIX,epochtimes.com
+  - DOMAIN-SUFFIX,epochtimes.cn
+  - DOMAIN-SUFFIX,epochtimes.org
+  - DOMAIN-SUFFIX,epochtimes.net
+
+  - DOMAIN-SUFFIX,aboluowang.com
+  - DOMAIN-SUFFIX,aboluowang.cn
+  - DOMAIN-SUFFIX,aboluowang.org
+  - DOMAIN-SUFFIX,aboluowang.net
+
+  - DOMAIN-SUFFIX,zhengwunet.com
+  - DOMAIN-SUFFIX,zhengwunet.cn
+  - DOMAIN-SUFFIX,zhengwunet.org
+  - DOMAIN-SUFFIX,zhengwunet.net
+
+  - DOMAIN-SUFFIX,rfa.com
+  - DOMAIN-SUFFIX,rfa.cn
+  - DOMAIN-SUFFIX,rfa.org
+  - DOMAIN-SUFFIX,rfa.net
+
+  - DOMAIN-SUFFIX,cn.nytimes.com
+  - DOMAIN-SUFFIX,cn.nytimes.cn
+  - DOMAIN-SUFFIX,cn.nytimes.org
+  - DOMAIN-SUFFIX,cn.nytimes.net
+
+  - DOMAIN-SUFFIX,appledaily.com
+  - DOMAIN-SUFFIX,appledaily.cn
+  - DOMAIN-SUFFIX,appledaily.org
+  - DOMAIN-SUFFIX,appledaily.net
+
+  - DOMAIN-SUFFIX,chinadigitaltimes.com
+  - DOMAIN-SUFFIX,chinadigitaltimes.cn
+  - DOMAIN-SUFFIX,chinadigitaltimes.org
+  - DOMAIN-SUFFIX,chinadigitaltimes.net
+
+#4 屏蔽反华网站 屏蔽违法网站 
+  - DOMAIN-SUFFIX,falundafa.com
+  - DOMAIN-SUFFIX,falundafa.cn
+  - DOMAIN-SUFFIX,falundafa.org
+
+  - DOMAIN-SUFFIX,ifjc.com
+  - DOMAIN-SUFFIX,ifjc.cn
+  - DOMAIN-SUFFIX,ifjc.org
+  
+  - DOMAIN-SUFFIX,minghui.com
+  - DOMAIN-SUFFIX,minghui.cn
+  - DOMAIN-SUFFIX,minghui.org
+
+  - DOMAIN-SUFFIX,ntdtv.com
+  - DOMAIN-SUFFIX,ntdtv.cn
+  - DOMAIN-SUFFIX,ntdtv.org
+
+  - DOMAIN-SUFFIX,open.com
+  - DOMAIN-SUFFIX,open.cn
+  - DOMAIN-SUFFIX,open.org
+
+  - DOMAIN-SUFFIX,bannedboot.com
+  - DOMAIN-SUFFIX,bannedboot.cn
+  - DOMAIN-SUFFIX,bannedboot.org
+
+  - DOMAIN-SUFFIX,secretchina.com
+  - DOMAIN-SUFFIX,secretchina.cn
+  - DOMAIN-SUFFIX,secretchina.org
+
+  - DOMAIN-SUFFIX,tuidang.com
+  - DOMAIN-SUFFIX,tuidang.cn
+  - DOMAIN-SUFFIX,tuidang.org
+
+  - DOMAIN-SUFFIX,wujieliulan.com
+  - DOMAIN-SUFFIX,wujieliulan.cn
+  - DOMAIN-SUFFIX,wujieliulan.org
+
+  - DOMAIN-SUFFIX,zhuichaguoji.com
+  - DOMAIN-SUFFIX,zhuichaguoji.cn
+  - DOMAIN-SUFFIX,zhuichaguoji.org
+
+  - DOMAIN-SUFFIX,24fa.com
+  - DOMAIN-SUFFIX,24fa.cn
+  - DOMAIN-SUFFIX,24fa.org
+
+  - DOMAIN-SUFFIX,li-hongzhi-master.com
+  - DOMAIN-SUFFIX,li-hongzhi-master.cn
+  - DOMAIN-SUFFIX,li-hongzhi-master.org
+
+  - DOMAIN-SUFFIX,voachinese.com
+  - DOMAIN-SUFFIX,voachinese.cn
+  - DOMAIN-SUFFIX,voachinese.org
+
+  - DOMAIN-SUFFIX,voacantonese.com
+  - DOMAIN-SUFFIX,voacantonese.cn
+  - DOMAIN-SUFFIX,voacantonese.org
+
+#6 屏蔽郭媒体 屏蔽违法网站 \b([\w-]+\.)*(guo\.media|(gnews|gtv)\.org)
   - DOMAIN-SUFFIX,guo.media
   - DOMAIN-SUFFIX,gnews.org
   - DOMAIN-SUFFIX,gtv.org
-  # 洋葱
+
+#7 屏蔽网上行 屏蔽宽带设置 \b([\w-]+\.)*netvigator\.com
+  - DOMAIN-SUFFIX,netvigator.com
+#8 屏蔽Tor 屏蔽洋葱路由器
   - DOMAIN-SUFFIX,torproject.org
-  # 自由时报
+
+#9 屏蔽MyCard 屏蔽MyCard \b([\w-]+\.)*mycard520\.com
+  - DOMAIN-SUFFIX,mycard520.com
+#10 屏蔽フリマJP 屏蔽フリマJP
+  - DOMAIN-SUFFIX,furimajp.com
+#11 屏蔽自由时报 屏蔽违法网站
   - DOMAIN-SUFFIX,ltn.com.tw
-  # 恶俗维基
+
+#12 屏蔽恶俗维基 屏蔽违法网站
+  - DOMAIN-SUFFIX,esu.dog
+  - DOMAIN-SUFFIX,esu.moe
+  - DOMAIN-SUFFIX,esu.red
+  - DOMAIN-SUFFIX,esu.wiki
+  - DOMAIN-SUFFIX,esu.zone
+
+  - DOMAIN-SUFFIX,zhina.dog
+  - DOMAIN-SUFFIX,zhina.moe
+  - DOMAIN-SUFFIX,zhina.red
+  - DOMAIN-SUFFIX,zhina.wiki
+  - DOMAIN-SUFFIX,zhina.zone
+
   - DOMAIN-SUFFIX,t91y.com
-  - DOMAIN-KEYWORD,esu
-  - DOMAIN-KEYWORD,zhina
-  # 品葱
+
+#13 屏蔽品葱 屏蔽违法网站
   - DOMAIN-SUFFIX,pin-cong.com
   - DOMAIN-SUFFIX,pincong.rocks
 
 
-  # 屏蔽宽带设置
-  - DOMAIN-SUFFIX,netvigator.com
-  # Mycard
-  - DOMAIN-SUFFIX,mycard520.com
-  # フリマJP
-  - DOMAIN-SUFFIX,furimajp.com
-  # 索尼
-  - DOMAIN-KEYWORD,sonyentertainmentnetwork
-  - DOMAIN-KEYWORD,playstation
+
+
+#14 屏蔽索尼认证 屏蔽索尼认证
+  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.net
+  - DOMAIN-SUFFIX,account.sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,account.sonyentertainmentnetwork.net
+  - DOMAIN-SUFFIX,native-ps3.np.ac.playstation.com
+  - DOMAIN-SUFFIX,native-ps3.np.ac.playstation.net
+  - DOMAIN-SUFFIX,auth.np.ac.playstation.com
+  - DOMAIN-SUFFIX,auth.np.ac.playstation.net
+  - DOMAIN-SUFFIX,native.np.ac.playstation.com
+  - DOMAIN-SUFFIX,native.np.ac.playstation.net
+  - DOMAIN-SUFFIX,accounts.api.playstation.com
+  - DOMAIN-SUFFIX,accounts.api.playstation.net
