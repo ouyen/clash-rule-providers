@@ -474,4 +474,5 @@ payload:
 
 # add
   - "+.octotree.io"
-  - ".v2ex.com"
+  - "+.v2ex.com"
+  - "+.pkuhollow.com"
