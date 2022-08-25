@@ -138,3 +138,7 @@ payload:
   # ipv6-test
 
   - DOMAIN-SUFFIX,test-ipv6.com
+
+  # tencent
+
+  - DOMAIN-SUFFIX,doh.pub
