@@ -130,3 +130,7 @@ payload:
 
   # add
   - DOMAIN-SUFFIX,outlook.com
+
+  # alibaba
+
+  - DOMAIN-KEYWORD,aliyun
