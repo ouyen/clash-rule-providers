@@ -134,3 +134,7 @@ payload:
   # alibaba
 
   - DOMAIN-KEYWORD,aliyun
+
+  # ipv6-test
+
+  - DOMAIN-SUFFIX,test-ipv6.com
