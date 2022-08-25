@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,touhou.tel
   - DOMAIN-KEYWORD,stackoverflow
   - DOMAIN-KEYWORD,wikipedia
+  - DOMAIN-KEYWORD,wikimedia
   - DOMAIN-KEYWORD,sci-hub
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,.blogspot.
