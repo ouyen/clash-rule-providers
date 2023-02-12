@@ -11,3 +11,4 @@ payload:
   - DOMAIN-KEYWORD,.blogspot.
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,.pinterest.
+  - DOMAIN-SUFFIX,translate.googleapis.com
