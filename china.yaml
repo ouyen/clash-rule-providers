@@ -142,3 +142,5 @@ payload:
   # tencent
 
   - DOMAIN-SUFFIX,doh.pub
+
+  - DOMAIN-SUFFIX,windows.com
