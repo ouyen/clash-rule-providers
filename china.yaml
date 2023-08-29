@@ -4,6 +4,7 @@ payload:
   - DOMAIN-KEYWORD,-cn
 
   - DOMAIN-SUFFIX,126.com
+  - DOMAIN-KEYWORD,huawei
   - DOMAIN-SUFFIX,126.net
   - DOMAIN-SUFFIX,127.net
   - DOMAIN-SUFFIX,163.com
