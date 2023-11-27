@@ -12,3 +12,4 @@ payload:
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,.pinterest.
   - DOMAIN-SUFFIX,translate.googleapis.com
+  - DOMAIN-KEYWORD,steamcommunity
